@@ -145,6 +145,58 @@ h5{
 	line-height: 27px;
 	margin-bottom: 25px;
 }
+.content{
+	flex-wrap: wrap;
+	position: absolute;
+	top: 50%;
+	left: 8%;
+	transform: translately(-50%);
+}
+h1{
+	color: white;
+	margin: 20px 0px 20px;
+	font-size: 75px;
+}
+
+h3{
+	color: white;
+	font-size: 25px;
+	margin-bottom: 50px;
+}
+
+h4{
+	color: #fcfc;
+	letter-spacing: 2px;
+	font-size: 20px;
+}
+.newslatter form{
+	width: 380px;
+	max-width: 100%;
+	position: relative;
+}
+
+.newslatter form input:first-child{
+	display: inline-block;
+	width: 100%;
+	padding: 14px 130px 14px 15px;
+	border: 2px solid #f9004d;
+	outline: none;
+	border-radius: 30px;
+}
+
+.newslatter form input:last-child{
+	position: absolute;
+	display: inline-block;
+	outline: none;
+	border: none;
+	padding: 10px 30px;
+	border-radius: 30px;
+	background-color: #f9004d;
+	color: white;
+	box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+	top: 6px;
+	right: 6px;
+}
 
     </style>
 </head>
@@ -162,11 +214,18 @@ h5{
         </ul>
         <a href="#" class="btn">Subscribe</a>
     </nav>
-
-
-
-
-
+	<div class="content">
+        <h4>Hello, My Name is</h4>
+        <h1>Muhammad Arbash</h1>
+        <h3>I am a Web Developer.</h3>
+        <div class="newslatter">
+            <form>
+                <input type="email" name="email" id="mail" placeholder="Enter Your Email">
+                <input type="submit" name="submit" value="Lets Start">
+            </form>
+        </div>
+    </div>
+</div>
     <footer>
         <p>Muzammil Ahmed</p>
         <p >For more HTML, CSS, and Coding Tutorials - Please click on the link below to subscribe to my Youtube Channel:</p>
